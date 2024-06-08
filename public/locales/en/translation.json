@@ -1,6 +1,8 @@
 {
     "header":{
         "nav-button":"Announcement",
-        "profil":"Profile"
+        "profil":"Profile",
+        "category-1":"Sale",
+        "category-2":"Rent"
     }
 }

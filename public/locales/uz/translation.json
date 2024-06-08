@@ -1,6 +1,8 @@
 {
     "header":{
         "nav-button":"E’lon berish",
-        "profil":"Profil"
+        "profil":"Profil",
+        "category-1":"Sotuv",
+        "category-2":"Ijara"
     }
 }
