@@ -1,1 +1,2 @@
-// Assalomu aleykum 
+// const hello = 'hello world',
+// console.log(hello); 
