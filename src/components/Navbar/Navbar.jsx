@@ -14,10 +14,10 @@ const Navbar = () => {
           <Translation />
         </div>
         <div className="Profil flex items-center gap-2">
-          <button className='text-[#FFFFFF] text-lg bg-[#FBA460] py-1 px-3 rounded-xl font-medium'>E’lon berish</button>
+          <button className='text-[#FFFFFF] text-lg bg-[#FBA460] py-1 px-3 rounded-xl font-medium'>{t('header.nav-button')}</button>
           <div className='flex items-center gap-1'>
             <FaRegCircleUser className='text-[#FBA460] text-4xl'/>
-            <a href="" className='text-[#FFFFFF] text-lg'>Profil</a>
+            <a href="" className='text-[#FFFFFF] text-lg'>{t('header.profil')}</a>
           </div>
         </div>
       </div>

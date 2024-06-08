@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 // import css 
 import './index.css'
+// import i18n 
+import "./i18next.js"
 // import store 
 import { store } from './Redux/Store.jsx'
 // import 'Provider' react-redux 

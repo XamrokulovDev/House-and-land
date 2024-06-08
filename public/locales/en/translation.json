@@ -1,6 +1,6 @@
 {
     "header":{
-        "button":"Announcement",
+        "nav-button":"Announcement",
         "profil":"Profile"
     }
 }
