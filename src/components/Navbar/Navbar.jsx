@@ -9,16 +9,16 @@ const Navbar = () => {
   const {t,i18n} = useTranslation();
   return (
     <>
-      <nav className='navbar bg-[#002349] py-7'>
+      <nav className='navbar bg-[#002349] py-7 max-md:py-3'>
         <div className="container mx-auto w-[80vw] flex justify-between items-center">
           <div className="translation">
             <Translation />
           </div>
           <div className="Profil flex items-center gap-2">
-            <button className='text-[#FFFFFF] text-md bg-[#FBA460] py-1 px-3 rounded-xl font-medium'>{t('header.nav-button')}</button>
+            <button className='text-[#FFFFFF] text-md bg-[#FBA460] py-1 px-3 rounded-xl font-medium max-md:text-sm max-md:rounded-lg'>{t('header.nav-button')}</button>
             <div className='flex items-center gap-1'>
-              <FaRegCircleUser className='text-[#FBA460] text-4xl'/>
-              <a href="" className='text-[#FFFFFF] text-lg'>{t('header.profil')}</a>
+              <FaRegCircleUser className='text-[#FBA460] text-4xl max-md:text-lg'/>
+              <a href="" className='text-[#FFFFFF] text-lg max-md:text-sm'>{t('header.profil')}</a>
             </div>
           </div>
         </div>
