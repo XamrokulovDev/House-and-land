@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      {(location.pathname === '/MyProfil' || location.pathname === '/MyWallet') ? (
+      {(location.pathname === '/MyProfil' || location.pathname === '/MyWallet' || location.pathname === '/Xizmatlar' || location.pathname === '/Elon' || location.pathname === '/Sms') ? (
         <nav className='navbar-2 bg-[#002349] py-7 max-md:py-5 flex items-center'>
           <NavLink to="/">
             <div className="w-[25vw] max-lg:w-[30vw] flex items-center gap-2 px-10 max-md:px-0 max-md:pl-5">

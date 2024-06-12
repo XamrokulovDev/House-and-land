@@ -15,7 +15,7 @@ const Sidebar = () => {
             <img src={MyProfile} alt="" className="w-[35px] h-[35px]"/>
             <h1>Mening profilim</h1>
         </NavLink>
-        <NavLink className="flex items-center gap-3 px-10 focus-within:bg-[#6D7E9D] py-4">
+        <NavLink to="/Elon" className="flex items-center gap-3 px-10 focus-within:bg-[#6D7E9D] py-4">
             <img src={commercial} alt="" className="w-[35px] h-[35px]"/>
             <h1>Mening e’lonlarim</h1>
         </NavLink>
@@ -23,11 +23,11 @@ const Sidebar = () => {
             <img src={cash} alt="" className="w-[35px] h-[35px]"/>
             <h1>Mening hamyonim</h1>
         </NavLink>
-        <NavLink className="flex items-center gap-3 px-10 focus-within:bg-[#6D7E9D] py-4">
+        <NavLink to="/Xizmatlar" className="flex items-center gap-3 px-10 focus-within:bg-[#6D7E9D] py-4">
             <img src={Bulleted} alt="" className="w-[35px] h-[35px]"/>
             <h1>Hizmatlar va tariflar</h1>
         </NavLink>
-        <NavLink className="flex items-center gap-3 px-10 focus-within:bg-[#6D7E9D] py-4">
+        <NavLink to="/Sms" className="flex items-center gap-3 px-10 focus-within:bg-[#6D7E9D] py-4">
             <img src={chat} alt="" className="w-[35px] h-[35px]"/>
             <h1>Mening xabarlarim</h1>
         </NavLink>

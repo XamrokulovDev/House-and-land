@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Routerlayout from './layout/Routerlayout';
 import Myprofil from './components/MyProfil/Myprofil';
 import MyWallet from './components/MyWallet/MyWallet';
+import Sms from './components/Sms/Sms';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,21 @@ const router = createBrowserRouter([
       {
         path: "/MyWallet",
         element:<MyWallet />
+      },
+      {
+        path:"/Elon",
+        element:<Elon/>
+      },
+      {
+        path:"/Xizmatlar",
+        element:<Xizmatlar/>
+      },
+      {
+        path:"/Sms",
+        element:<Sms/>
       }
+
+
     ]
   }
 ]);
