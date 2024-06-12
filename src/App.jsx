@@ -1,9 +1,11 @@
-import React from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+// import context 
+import { UserContext } from "./context/Context";
+// import pages and components
 import Home from './pages/Home/Home';
 import Routerlayout from './layout/Routerlayout';
 import Myprofil from './components/MyProfil/Myprofil';
-import { UserContext } from "./context/Context";
+import MyWallet from './components/MyWallet/MyWallet';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/MyProfil",
         element: <Myprofil />
+      },
+      {
+        path: "/MyWallet",
+        element: <MyWallet />
       }
     ]
   }
@@ -24,7 +30,7 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <UserContext.Provider value={{ /* your context value here */ }}>
+    <UserContext.Provider value={{}}>
       <RouterProvider router={router} />
     </UserContext.Provider>
   );

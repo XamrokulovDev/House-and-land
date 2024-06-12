@@ -11,7 +11,7 @@ import { TfiEmail } from "react-icons/tfi";
 const Footer = () => {
   return (
     <footer className='bg-[#002349] py-[10vh]'>
-        <div className="container flex items-start justify-between gap-[20px] max-md:flex-col min-lg:justify-start">
+        <div className="container flex items-start justify-between gap-[20px] max-md:flex-col max-lg:gap-[23vw]">
             <div className="footer_icons flex flex-col items-center max-md:items-start gap-[50px] max-md:mb-[10vh] max-md:w-full">
                 <div className="logo w-[120px] h-[120px] overflow-hidden rounded-[50%]">
                     <img src={footer_img} alt="" className=""/>
@@ -22,7 +22,7 @@ const Footer = () => {
                     <FaFacebookF className="text-4xl rounded-[50%] border p-1"/>
                 </div>
             </div>
-            <div className="footer_link flex items-center justify-between gap-[8vw] max-md:gap-[20vw] max-lg:flex-col max-md:w-full">
+            <div className="footer_link flex items-center justify-between gap-[8vw] max-md:gap-[20vw] max-lg:flex-col max-xl:w-full">
                 <div className="link flex flex-col gap-5 text-[16px] text-[#FFFFFF] max-xl:w-full min-lg:text-[12px]">
                     <a href="#" className="text-xl font-semibold pb-5">Foydalanuvchilarga</a>
                     <a href="#">Biz haqimizda</a>
